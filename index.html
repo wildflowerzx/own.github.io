@@ -7,14 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Your Project Name</h1>
-            <h2>Project Description</h2>
-        </div>
-    </header>
-    
-    <nav>
+    <nav class="sidebar">
         <div class="container">
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -24,27 +17,34 @@
         </div>
     </nav>
 
-    <div id="main_content">
-        <section id="home">
+    <div class="main-content">
+        <header>
+            <div class="container">
+                <h1>Your Project Name</h1>
+                <h2>Project Description</h2>
+            </div>
+        </header>
+        
+        <div id="home" class="tab-content">
             <div class="container">
                 <h1>Home Page</h1>
                 <p>This is your home page content.</p>
             </div>
-        </section>
+        </div>
         
-        <section id="timeline">
+        <div id="timeline" class="tab-content">
             <div class="container">
                 <h1>Timeline</h1>
                 <p>This is your timeline page content.</p>
             </div>
-        </section>
+        </div>
         
-        <section id="contact">
+        <div id="contact" class="tab-content">
             <div class="container">
                 <h1>Contact Me</h1>
                 <p>This is your contact page content.</p>
             </div>
-        </section>
+        </div>
     </div>
 
     <footer>
