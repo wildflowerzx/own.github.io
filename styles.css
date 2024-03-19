@@ -245,3 +245,45 @@ a {
 #a-title {
   text-decoration: none;
 }
+
+/* Navigation Bar */
+
+.sidebar {
+  width: 200px;
+  height: 100vh; /* Adjust as needed */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333; /* Adjust background color */
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  background-color: #555; /* Adjust hover background color */
+}
+
+.main-content {
+  margin-left: 200px; /* Adjust to match sidebar width */
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
